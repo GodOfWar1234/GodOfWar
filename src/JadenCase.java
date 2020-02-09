@@ -1,4 +1,5 @@
-
+import java.util.Arrays;
+import java.util.stream.Collectors;
 
 public class JadenCase {
     public static String toJadenCase(String phrase) {
@@ -23,3 +24,23 @@ public class JadenCase {
 
 
 }
+
+
+//    public class Dinglemouse {
+//
+//        int rider = 1, miles = 0;
+//            for(
+//        int distToNextStation : stations)
+//
+//        {
+//            if (miles + distToNextStation > 100) { // change rider
+//                rider++;
+//                miles = 0;
+//            }
+//            miles += distToNextStation;
+//        }
+//            return rider;
+//    }
+
+
+
