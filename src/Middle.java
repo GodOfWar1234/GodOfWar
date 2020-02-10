@@ -1,15 +1,15 @@
 public class Middle {
     public static String getMiddle(String word) {
-        String answer;
-        int middle = word.length() / 2;
+        int middle;
         int length;
         if(word.length() % 2 == 0) {
-            answer = word.substring(0, middle);
-            length = 2;
+           middle = word.length() / 2 - 1;
+           length = 2;
        } else {
-     answer = word.substring(0, 1);
+     middle = word.length() / 2;
+     length = 1;
        }
-        return answer;
+        return word.substring(middle, middle + length);
 
     }
 
