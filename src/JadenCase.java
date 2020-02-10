@@ -4,7 +4,7 @@ import java.util.stream.Collectors;
 public class JadenCase {
     public static String toJadenCase(String phrase) {
         if (isEmpty(phrase))
-            return null;
+           return null;
 
         return Arrays.stream(phrase.split(" "))
                 .map(JadenCase::capitalizeWord)
@@ -27,13 +27,9 @@ public class JadenCase {
 
 
 //    public class Dinglemouse {
-//
-//        int rider = 1, miles = 0;
-//            for(
-//        int distToNextStation : stations)
-//
-//        {
-//            if (miles + distToNextStation > 100) { // change rider
+//      int rider = 1, miles = 0;
+//            for(int distToNextStation : stations) {
+//            if (miles + distToNextStation > 100) {
 //                rider++;
 //                miles = 0;
 //            }
