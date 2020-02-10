@@ -6,7 +6,7 @@ public class Middle {
             answer = word.substring(0, middle);
 
        } else {
-        answer = word.substring(0, 1);
+     answer = word.substring(0, 1);
        }
         return answer;
 
