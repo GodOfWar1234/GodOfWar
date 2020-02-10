@@ -1,12 +1,13 @@
 public class Middle {
     public static String getMiddle(String word) {
-        String middle;
-        for(int i = 0; i < word.length(); i++) {
-            if(word.length() % 2 == 1) {
-
-            }
+            int length = word.length();
+        int middle = length / 2;
+        if(length % 2 != 0) {
+               word.substring(0, middle);
+            } else {
 
         }
+
     }
 
 }
