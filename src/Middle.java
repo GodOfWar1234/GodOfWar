@@ -3,11 +3,11 @@ public class Middle {
         String answer;
         int middle = word.length() / 2;
         if(word.length() % 2 == 0) {
-            answer = word.substring(0, middle - 1) + word.substring(middle + 1);
+            answer = word.substring(0, middle);
 
        } else {
         answer = word.substring(0, 1);
-        }
+       }
         return answer;
 
     }
