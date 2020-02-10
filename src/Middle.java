@@ -1,15 +1,15 @@
 public class Middle {
     public static String getMiddle(String word) {
-        StringBuilder sb = new StringBuilder(word);
-        if(word.length() % 2 != 0)
-            sb.deleteCharAt(word.length()/2);
-        else{
-            int middle = word.length()/2 - 1;
-            sb.deleteCharAt(middle);
-            sb.deleteCharAt(middle);
+        String answer;
+        int middle = word.length() / 2;
+        if(word.length() % 2 == 0) {
+            answer = word.substring(0, middle) + word.substring(middle + 1);
+
+        } else {
+        answer = word.substring(0, 1);
         }
-        word = sb.toString();
-        return word;
+        return answer;
+
     }
 
 }
