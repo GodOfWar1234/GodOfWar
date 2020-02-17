@@ -2,9 +2,10 @@ public class Accumul {
 
 
     public static String accum(String s) {
-    for(int i = 0; i < s.length(); i++) {
        String upperCase = s.substring(0, 1).toUpperCase() + s.substring(1);
-       upperCase.replace("", " ").trim();
+            upperCase.replace("", " ").trim();
+    for(int i = 0; i < s.length(); i++) {
+
     }
 
     return
